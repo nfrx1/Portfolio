@@ -28,6 +28,7 @@ a{
 header{
     display: flex;
     background-color: var(--secondary-color);
+    width: 100%;
     padding: 10px 5% 10px 5%;
     align-items: center;
     justify-content: space-between;
@@ -191,4 +192,6 @@ h2{
         z-index: 1;
         border-radius: 15px 15px 0 0;
     }
+    .projects{
+        grid-template-columns: repeat(auto-fit, 300px);
 }
